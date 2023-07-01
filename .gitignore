@@ -1,0 +1,41 @@
+*.pyc
+venv/
+.idea/
+
+# pytest
+contib/.pytest_cache
+
+### Intellij ###
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and Webstorm
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+## File-based project format:
+*.iws
+
+## File-based project format:
+*.pptx
+
+## Plugin-specific files:
+
+# IntelliJ
+/out/
+
+.idea/
+
+runtime.txt
+Procfile
+
+### Docusaurus ###
+.DS_Store
+node_modules
+
+lib/core/metadata.js
+lib/core/MetadataBlog.js
+
+website/translated_docs
+website/build/
+website/yarn.lock
+website/node_modules
+website/i18n/*
+
+deploy_comfort_tool.ps1
